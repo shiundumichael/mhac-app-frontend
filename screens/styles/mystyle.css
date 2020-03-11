@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#toolbar {
+    background-color: darkblue;
+}
+
+h1 {
+    font-size: 100px;
+    display: inline;
+    color: white;
+    margin-left: 90px;
+}
+
+li {
+    display: block;
+}
+
+li * {
+    display: inline;
+}
+li p {
+    margin-left: 90px;
+    font-size: 80px;
+}
+
+.fa-bars {
+    font-size: 100px;
+    color: white;
+    margin: 30px;
+}
+.img { 
+   height: 200px;
+}
+
+.pstyle{
+    font-size:100;
+}
+
+  
+
+
+  
