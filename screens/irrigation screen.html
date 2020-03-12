@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>HARVESTING SCREEN</title>
+    <title>IRRIGATION SCREEN</title>
     <script src="https://kit.fontawesome.com/9424979033.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/mystyle.css">
     <link rel="stylesheet" href="./styles/harvesting.css">
@@ -18,6 +18,18 @@
     <h1>The select element</h1>
 
     <form>
+
+        <label for="crop">Where was the crop irrigated?:</label>
+
+        <select id="crop">
+            <option value="plot_1a">plot 1a</option>
+            <option value="plot_1b">plot 1b</option>
+            <option value="plot_2a">plot 2a</option>
+            <option value="plot_2b">plot 2b</option>
+            <option value="plot_3a">plot 3a</option>
+            <option value="plot_3b">plot 3b</option>
+
+        </select>
         <label for="crop">Choose a crop:</label>
 
         <select id="crop">
@@ -29,28 +41,18 @@
             <option value="Cabbage">Cabbage</option>
         </select>
 
-        <label for="When crop was harvested?">When crop was harvested?:</label>
-        <input type="date" id="Date of harvest" name="Date of harvest" value="2020-03-12">
+        <label for="When was the crop irrigated?">When was the crop irrigated?:</label>
+        <input type="date" id="Date of irrigation" name="Date of irrigation" value="2020-03-12">
 
-        <label for="crop">Where was crop harvested?:</label>
-
-        <select id="crop">
-            <option value="plot_1a">plot 1a</option>
-            <option value="plot_1b">plot 1b</option>
-            <option value="plot_2a">plot 2a</option>
-            <option value="plot_2b">plot 2b</option>
-            <option value="plot_3a">plot 3a</option>
-            <option value="plot_3b">plot 3b</option>
-
-        </select>
-        <label for="crop">How it was harvested?:</label>
+       
+        <label for="crop">How was it irrigated?:</label>
 
         <select id="crop">
-            <option value="by a_combined harvester">by a combined harvester</option>
-            <option value="by man_power">by man power</option>
+            <option value="by a_springlier">by a springlier</option>
+            <option value="by watering">by watering</option>
         </select>
 
-        <label for="who">Who harvested?:</label>
+        <label for="who">Who irrigated?:</label>
         <select id="who">
             <option value="Patrick">Patrick</option>
             <option value="Andrew">Andrew</option>
