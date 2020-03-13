@@ -1,4 +1,15 @@
 form * {
     font-size: 50px;
     display: block;
+ 
+}
+ul{
+    padding-left:15px;
+    font-size: 50px;
+}
+li{
+    display:block;
+}
+li:nth-child(2n-1){
+    background-color: rgb(0, 255, 115);
 }
