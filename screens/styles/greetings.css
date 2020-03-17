@@ -1,3 +1,45 @@
 p {
-    font-size: 1em;
+    font-size: 25px;
+}
+ul{
+    font-size: 25px
+}
+#ul{
+    color: chartreuse;
+}
+
+#hand {
+    position: relative;
+    top: 330;
+    left: 230;
+    animation: rotation-left 2s infinite linear;
+    transform-origin: bottom left;
+}
+
+#hand2 {
+    position: relative;
+    top: 330;
+    left: 270;
+    animation: rotation-right 2s infinite linear;
+    transform-origin: bottom left;
+}
+}
+
+@keyframes rotation-left {
+    from {
+            transform: rotate(0deg);
+    }
+    to {
+            transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation-right {
+    from {
+            transform: rotate(0deg);
+            transform-origin: ;
+    }
+    to {
+            transform: rotate(359deg);
+    }
 }
