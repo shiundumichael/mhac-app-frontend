@@ -9,5 +9,10 @@
 .handwashing-step  {
     width: 100%;
     padding: 100px;
-    box-sizing: border-box;
+}
+
+.handwashing-audio {
+    width: 100%;
+    
+    
 }
