@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { HomeComponent } from './home/home.component';
 import { HandWashingComponent } from './hand-washing/hand-washing.component';
 import { ScanQrComponent } from './scan-qr/scan-qr.component';
+import { GreetingsAdviceComponent } from './greetings-advice/greetings-advice.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HandWashingComponent,
-    ScanQrComponent
+    ScanQrComponent,
+    GreetingsAdviceComponent
   ],
   imports: [
     BrowserModule,

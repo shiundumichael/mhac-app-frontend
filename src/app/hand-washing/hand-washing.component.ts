@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-hand-washing',
+  selector: 'hand-washing',
   templateUrl: './hand-washing.component.html',
   styleUrls: ['./hand-washing.component.scss']
 })
