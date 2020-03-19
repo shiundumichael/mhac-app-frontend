@@ -9,6 +9,8 @@ import { HandWashingComponent } from './hand-washing/hand-washing.component';
 import { ScanQrComponent } from './scan-qr/scan-qr.component';
 import { GreetingsAdviceComponent } from './greetings-advice/greetings-advice.component';
 
+import { ZXingScannerModule } from '@zxing/ngx-scanner';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { GreetingsAdviceComponent } from './greetings-advice/greetings-advice.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IonicModule.forRoot()
+    IonicModule.forRoot(),
+    ZXingScannerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
