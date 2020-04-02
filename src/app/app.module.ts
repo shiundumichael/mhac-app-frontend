@@ -10,6 +10,7 @@ import { ScanQrComponent } from './scan-qr/scan-qr.component';
 import { GreetingsAdviceComponent } from './greetings-advice/greetings-advice.component';
 
 import { ZXingScannerModule } from '@zxing/ngx-scanner';
+import { LyricsComponent } from './lyrics/lyrics.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ZXingScannerModule } from '@zxing/ngx-scanner';
     HomeComponent,
     HandWashingComponent,
     ScanQrComponent,
-    GreetingsAdviceComponent
+    GreetingsAdviceComponent,
+    LyricsComponent
   ],
   imports: [
     BrowserModule,

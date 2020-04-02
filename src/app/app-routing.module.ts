@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { HandWashingComponent } from './hand-washing/hand-washing.component';
 import { ScanQrComponent } from './scan-qr/scan-qr.component';
+import { LyricsComponent } from './lyrics/lyrics.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'scan-qr',
     component: ScanQrComponent
+  },
+  {
+    path: 'lyrics',
+    component: LyricsComponent
   }
 ];
 
