@@ -9,7 +9,7 @@ export const Ay_Gazoomba = {
             "endTimeSecond": "4"
         },
         {
-            "lyric": "AY GAZOOMBA\nZOOMBA\nZOOMBA\nAY GAZOOMBA\nZOOMBA\nHEY!\n(again)",
+            "lyric": "AY GAZOOMBA\nZOOMBA\nZOOMBA\nAY GAZOOMBA\nZOOMBA\nHEY!\n",
             "startTimeMinute": "0",
             "startTimeSecond": "5",
             "endTimeMinute": "0",
@@ -71,5 +71,11 @@ export const Ay_Gazoomba = {
             "endTimeMinute": "1",
             "endTimeSecond": "1"
         }
+    ]
+};
+
+export const Zum_Gali_Gali = {
+    songTitle: "Zum Gali Gali",
+    lyrics: [
     ]
 }
