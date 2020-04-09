@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Ay_Gazoomba } from './songs';
+import { Ay_Gazoomba, oh_ram_sam_sam, Zum_Gali_Gali } from './songs';
+
 
 @Component({
   selector: 'app-lyrics',
@@ -8,7 +9,7 @@ import { Ay_Gazoomba } from './songs';
 })
 export class LyricsComponent implements OnInit {
 
-  currentSong = Ay_Gazoomba;
+  currentSong = oh_ram_sam_sam;
 
   currentTime: number = 0;
 
