@@ -1,9 +1,12 @@
-<p>lyrics works!</p>
-<h1>Current Song {{currentSong.songTitle}}</h1>
+<ion-content padding class="lyrics-content">
+<h1 class="title">🎵 Now Playing: {{currentSong.songTitle}}</h1>
 <audio #audioElem src="assets/audio/Ay_Ga_Zoomba.mp3" autoplay="true" (timeupdate)="onAudioTimeUpdate(audioElem)"></audio>
-<h1>{{currentTime}}</h1>
 <ul class="lyrics-list">
     <li *ngFor="let line of currentLyricLines">
         {{line}}
     </li>
 </ul>
+<div class="button-container">
+    <ion-button shape="round" (click)="toggleAudio()"><ion-icon name="{{paused ? 'play' : 'pause'}}"></ion-icon></ion-button>
+</div>
+</ion-content>

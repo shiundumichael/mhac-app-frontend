@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ViewChild } from '@angular/core';
 import { Ay_Gazoomba } from './songs';
 
 @Component({
@@ -14,11 +14,26 @@ export class LyricsComponent implements OnInit {
 
   currentLyricLines: string[] = [];
 
+  @ViewChild("audioElem") audioVC: { nativeElement: HTMLAudioElement};
+
+  paused: boolean = false;
+
   constructor() {
 
   }
 
   ngOnInit(): void {
+  }
+
+  toggleAudio() {
+    console.log("Plz work?", this.audioVC.nativeElement);
+    if (this.paused) {
+      this.audioVC.nativeElement.play();
+      this.paused = false;
+    } else {
+      this.audioVC.nativeElement.pause();
+      this.paused = true;
+    }
   }
 
   onAudioTimeUpdate(elem: HTMLAudioElement) {
