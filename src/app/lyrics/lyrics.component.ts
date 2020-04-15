@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Ay_Gazoomba } from './songs';
+import { Ay_Gazoomba, Oh_Ram_Sam_Sam, Zum_Gali_Gali, Baba_La_Gumbala,Bella_Mama } from './songs';
+
 
 @Component({
   selector: 'app-lyrics',
