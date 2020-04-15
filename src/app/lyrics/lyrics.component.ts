@@ -26,7 +26,6 @@ export class LyricsComponent implements OnInit {
   }
 
   toggleAudio() {
-    console.log("Plz work?", this.audioVC.nativeElement);
     if (this.paused) {
       this.audioVC.nativeElement.play();
       this.paused = false;
