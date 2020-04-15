@@ -1,6 +1,6 @@
 <ion-content padding class="lyrics-content">
 <h1 class="title">🎵 Now Playing: {{currentSong.songTitle}}</h1>
-<audio #audioElem src="assets/audio/Ay_Ga_Zoomba.mp3" autoplay="true" (timeupdate)="onAudioTimeUpdate(audioElem)"></audio>
+<audio #audioElem src="assets/audio/Bella Mama.mp3" autoplay="true" (timeupdate)="onAudioTimeUpdate(audioElem)"></audio>
 <ul class="lyrics-list">
     <li *ngFor="let line of currentLyricLines">
         {{line}}
