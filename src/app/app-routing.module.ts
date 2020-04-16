@@ -17,6 +17,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'greetings',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
+  {
     path: 'hand-washing',
     component: HandWashingComponent
   },
@@ -31,7 +36,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
