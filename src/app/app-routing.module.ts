@@ -17,6 +17,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'greetings',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
+  {
     path: 'hand-washing',
     component: HandWashingComponent
   },
