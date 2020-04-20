@@ -3,6 +3,7 @@ import { Ay_Gazoomba, Oh_Ram_Sam_Sam, Zum_Gali_Gali, Baba_La_Gumbala, Bella_Mama
 import { Ay_Ga_Zoomba_Instructions } from './songs/ay_ga_zoomba_with_instructions';
 import { Song, Zum_Gali_Gali_Instructions } from './songs/zum_gali_gali_with_instructions';
 import { ActivatedRoute, Router, NavigationStart } from '@angular/router';
+import { Baba_La_Gumbala_Instructions } from './songs/baba_la_gumbala_instructions';
 
 
 @Component({
@@ -36,6 +37,10 @@ export class LyricsComponent implements OnInit {
       if (params["id"] === "2") {
         this.songAudioURL = "assets/audio/Ay_Ga_Zoomba.mp3";
         this.currentSong = Ay_Gazoomba;
+      } else
+      if (params["id"] === "3") {
+        this.songAudioURL = "assets/audio/Baba_La_Gumbala_Instructions.mp3";
+        this.currentSong = Baba_La_Gumbala_Instructions;
       }
     });
     this.router.events.subscribe((event) => {

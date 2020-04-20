@@ -13,7 +13,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Baba la",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "4",
             "endTimeMinute": "0",
@@ -22,7 +22,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Baba la",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "5",
             "endTimeMinute": "0",
@@ -31,7 +31,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Baba la gumbala",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "7",
             "endTimeMinute": "0",
@@ -40,7 +40,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Baba la gumbala",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "9",
             "endTimeMinute": "0",
@@ -49,7 +49,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Gumbala havise",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "11",
             "endTimeMinute": "0",
@@ -58,7 +58,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Gumbala havise",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "13",
             "endTimeMinute": "0",
@@ -67,7 +67,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Gumbala havise",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "15",
             "endTimeMinute": "0",
@@ -76,7 +76,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Gumbala havise",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "17",
             "endTimeMinute": "0",
@@ -85,7 +85,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Hanana nana",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "25",
             "endTimeMinute": "0",
@@ -94,7 +94,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Hanana nana",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "27",
             "endTimeMinute": "0",
@@ -103,7 +103,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Havise",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "30",
             "endTimeMinute": "0",
@@ -112,7 +112,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Havise",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "31",
             "endTimeMinute": "0",
@@ -121,7 +121,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Hanana nana",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "30",
             "endTimeMinute": "0",
@@ -130,7 +130,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Hanana nana",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "32",
             "endTimeMinute": "0",
@@ -139,7 +139,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Havise",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "35",
             "endTimeMinute": "0",
@@ -148,7 +148,7 @@ export const Baba_La_Gumbala_Instructions = {
         {
             "lyric": "Havise",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "36",
             "endTimeMinute": "0",
