@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { Ay_Gazoomba, Oh_Ram_Sam_Sam, Zum_Gali_Gali, Baba_La_Gumbala, Bella_Mama } from './songs';
 import { Ay_Ga_Zoomba_Instructions } from './songs/ay_ga_zoomba_with_instructions';
 import { Song, Zum_Gali_Gali_Instructions } from './songs/zum_gali_gali_with_instructions';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router, NavigationStart } from '@angular/router';
 
 
 @Component({
@@ -31,13 +31,19 @@ export class LyricsComponent implements OnInit {
 
   paused: boolean = false;
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute, private router: Router) {
     this.route.params.subscribe(params => {
       if (params["id"] === "2") {
         this.songAudioURL = "assets/audio/Ay_Ga_Zoomba.mp3";
         this.currentSong = Ay_Gazoomba;
       }
     });
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationStart) {
+          this.audioVC.nativeElement.pause();
+          this.audioVC.nativeElement.currentTime = 0;
+      }
+  });
     
   }
 
