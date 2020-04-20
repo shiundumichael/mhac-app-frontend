@@ -18,8 +18,7 @@ export class LyricsComponent implements OnInit {
   lyricLinesInstructions: string[] = [];
   lyricLinesPerson1: string[] = [];
   lyricLinesPerson2: string[] = [];
-
-  lyricColors: string[] = ["white", "lightblue", "lightpink", "lightyellow"];
+  
   lyricPerson1Color: string = "white";
   lyricPerson2Color: string = "white";
 

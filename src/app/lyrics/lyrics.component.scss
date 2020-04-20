@@ -44,7 +44,7 @@
 }
 
 .blob-container2 {
-    filter: hue-rotate(90deg);
+    filter: hue-rotate(60deg);
 }
 
 @keyframes waving-arm {
@@ -72,6 +72,34 @@
         -webkit-transform: rotate(50deg);
         transform: rotate(50deg);
     }
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        bottom: 30px;
+    }
+    50% {
+        bottom: 80px;
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+        bottom: 30px;
+    }
+}
+
+.blob-container .todler {
+    width: 40%;
+    position: absolute;
+    right: 3px;
+    bottom: 30px;
+    z-index: 2;
+    animation: rotate 3s infinite linear;
+    -webkit-animation: rotate 3s infinite linear;
+    filter: hue-rotate(60deg);
+    -webkit-filter: hue-rotate(60deg);
 }
 
 .lyric-section {
