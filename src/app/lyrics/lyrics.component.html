@@ -1,33 +1,35 @@
 <ion-content padding class="lyrics-content">
-<h1 class="title">🎵 Now Playing: {{currentSong.songTitle}}</h1>
-<audio #audioElem src="assets/audio/Zum_Gali_Gali_Instructions.mp3" autoplay="true" (timeupdate)="onAudioTimeUpdate(audioElem)"></audio>
-<ul class="lyrics-list">
-    <li>Instructions:</li>
-    <li *ngFor="let line of lyricLinesInstructions">
-        {{line}}
-    </li>
-</ul>
-<div style="display: block;">
-<div class="blob-container">
-    <img src="assets/images/body1.svg" class="body">
-    <img src="assets/images/arm1.svg" class="arm">
-</div>
-<ul class="lyrics-list">
-    <li *ngFor="let line of lyricLinesPerson1">
-        {{line}}
-    </li>
-</ul>
-</div>
-<div class="blob-container blob-container2">
-    <img src="assets/images/body1.svg" class="body">
-    <img src="assets/images/arm1.svg" class="arm">
-</div>
-<ul class="lyrics-list">
-    <li *ngFor="let line of lyricLinesPerson2">
-        {{line}}
-    </li>
-</ul>
-<div class="button-container">
-    <ion-button shape="round" (click)="toggleAudio()"><ion-icon name="{{paused ? 'play' : 'pause'}}"></ion-icon></ion-button>
-</div>
+    <h1 class="title">🎵 Now Playing: {{currentSong.songTitle}}</h1>
+    <audio #audioElem src="assets/audio/Zum_Gali_Gali_Instructions.mp3" autoplay="true"
+        (timeupdate)="onAudioTimeUpdate(audioElem)"></audio>
+    <div class="button-container">
+        <ion-button shape="round" (click)="toggleAudio()">
+            <ion-icon name="{{paused ? 'play' : 'pause'}}"></ion-icon>
+        </ion-button>
+    </div>
+    <ul class="lyrics-list">
+        <li>Instructions:</li>
+        <li *ngFor="let line of lyricLinesInstructions">
+            {{line}}
+        </li>
+    </ul>
+    <div class="lyric-section">
+        <div class="blob-container">
+            <img src="assets/images/body1.svg" class="body">
+            <img src="assets/images/arm1.svg" class="arm">
+        </div>
+        <div class="lyrics-list">
+            <div class="line">Always here</div>
+            <div class="line" *ngFor="let line of lyricLinesPerson1">{{line}}</div>
+        </div>
+    </div>
+    <div class="blob-container blob-container2">
+        <img src="assets/images/body1.svg" class="body">
+        <img src="assets/images/arm1.svg" class="arm">
+    </div>
+    <ul class="lyrics-list">
+        <li *ngFor="let line of lyricLinesPerson2">
+            {{line}}
+        </li>
+    </ul>
 </ion-content>

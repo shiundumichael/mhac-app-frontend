@@ -3,12 +3,11 @@
     color: white;
 }
 
-ul {
-    display: inline-block;
+.lyrics-list {
+    flex-grow: 1;
 }
 
-.lyrics-list li {
-    display: inline-block;
+.lyrics-list .line {
     list-style: none;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,10 +25,10 @@ ul {
 }
 
 .blob-container {
-    display: inline-block;
-    width: 140px;
+    flex-shrink: 0;
+    width: 120px;
     position: relative;
-    z-index: 1;
+    margin: 20px;
 }
 
 
@@ -76,4 +75,9 @@ ul {
         -webkit-transform: rotate(50deg);
         transform: rotate(50deg);
     }
+}
+
+.lyric-section {
+    display: flex;
+    width: 100%;
 }

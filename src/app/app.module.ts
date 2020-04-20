@@ -11,6 +11,7 @@ import { GreetingsAdviceComponent } from './greetings-advice/greetings-advice.co
 
 import { ZXingScannerModule } from '@zxing/ngx-scanner';
 import { LyricsComponent } from './lyrics/lyrics.component';
+import { CovidTipsComponent } from './covid-tips/covid-tips.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LyricsComponent } from './lyrics/lyrics.component';
     HandWashingComponent,
     ScanQrComponent,
     GreetingsAdviceComponent,
-    LyricsComponent
+    LyricsComponent,
+    CovidTipsComponent
   ],
   imports: [
     BrowserModule,
