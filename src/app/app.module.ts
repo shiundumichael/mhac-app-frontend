@@ -12,6 +12,8 @@ import { GreetingsAdviceComponent } from './greetings-advice/greetings-advice.co
 import { ZXingScannerModule } from '@zxing/ngx-scanner';
 import { LyricsComponent } from './lyrics/lyrics.component';
 import { CovidTipsComponent } from './covid-tips/covid-tips.component';
+import { SongListComponent } from './song-list/song-list.component';
+import { ActivitiesComponent } from './activities/activities.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CovidTipsComponent } from './covid-tips/covid-tips.component';
     ScanQrComponent,
     GreetingsAdviceComponent,
     LyricsComponent,
-    CovidTipsComponent
+    CovidTipsComponent,
+    SongListComponent,
+    ActivitiesComponent
   ],
   imports: [
     BrowserModule,

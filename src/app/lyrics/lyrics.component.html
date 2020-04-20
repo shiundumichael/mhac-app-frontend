@@ -1,13 +1,13 @@
 <ion-content padding class="lyrics-content">
     <h1 class="title">🎵 Now Playing: {{currentSong.songTitle}}</h1>
-    <audio #audioElem src="assets/audio/Zum_Gali_Gali_Instructions.mp3" autoplay="true"
+    <audio #audioElem [src]="songAudioURL" autoplay="true"
         (timeupdate)="onAudioTimeUpdate(audioElem)"></audio>
     <div class="button-container">
         <ion-button shape="round" (click)="toggleAudio()">
             <ion-icon name="{{paused ? 'play' : 'pause'}}"></ion-icon>
         </ion-button>
     </div>
-    <div class="lyrics-list">
+    <div *ngIf="hasInstructions" class="lyrics-list">
         <div class="line">Instructions:</div>
         <div class="line" *ngFor="let line of lyricLinesInstructions">
             {{line}}
@@ -22,7 +22,7 @@
             <div class="line" *ngFor="let line of lyricLinesPerson1">{{line}}</div>
         </div>
     </div>
-    <div class="lyric-section">
+    <div *ngIf="hasTwoPeople" class="lyric-section">
         <div class="blob-container blob-container2">
             <img src="assets/images/body2.svg" class="body">
             <img src="assets/images/body2.svg" class="todler">

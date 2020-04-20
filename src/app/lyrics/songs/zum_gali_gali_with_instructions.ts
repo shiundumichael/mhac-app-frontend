@@ -2,7 +2,7 @@ export type Song = {
     songTitle: string;
     lyrics: {
         "lyric": string,
-        "person": string,
+        "person"?: string,
         isInstructions?: string,
         "startTimeMinute": string,
         "startTimeSecond": string,
