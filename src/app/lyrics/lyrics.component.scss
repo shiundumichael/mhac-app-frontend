@@ -43,6 +43,30 @@
     -webkit-animation: waving-arm 3s infinite linear;
 }
 
+@keyframes singing-mouth {
+    0% {
+        height: 3%;
+    }
+    50% {
+        height: 12%;
+    }
+    100% {
+        height: 3%;
+    }
+}
+
+
+.blob-container .mouth {
+    width: 14%;
+    height: 3%;
+    position: absolute;
+    right: 38%;
+    top: 45%;
+    z-index: 2;
+    animation: singing-mouth 1.5s infinite linear;
+    -webkit-animation: singing-mouth 1.5s infinite linear;
+}
+
 .blob-container2 {
     filter: hue-rotate(60deg);
 }
