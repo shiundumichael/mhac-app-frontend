@@ -114,12 +114,12 @@
     }
 }
 
-.blob-container .todler {
+.blob-container .toddler {
     width: 40%;
     position: absolute;
     right: 3px;
     bottom: 30px;
-    z-index: 2;
+    z-index: 4;
     animation: rotate 3s infinite linear;
     -webkit-animation: rotate 3s infinite linear;
     filter: hue-rotate(60deg);
