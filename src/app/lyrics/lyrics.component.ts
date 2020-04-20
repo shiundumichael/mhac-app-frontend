@@ -1,5 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Ay_Gazoomba, Oh_Ram_Sam_Sam, Zum_Gali_Gali, Baba_La_Gumbala, Bella_Mama } from './songs';
+import { Ay_Ga_Zoomba_Instructions } from './songs/ay_ga_zoomba_with_instructions';
+import { Baba_La_Gumbala_Instructions } from './songs/baba_la_gumbala_instructions';
 
 
 @Component({
@@ -9,11 +11,12 @@ import { Ay_Gazoomba, Oh_Ram_Sam_Sam, Zum_Gali_Gali, Baba_La_Gumbala, Bella_Mama
 })
 export class LyricsComponent implements OnInit {
 
-  currentSong = Bella_Mama;
+  currentSong = Baba_La_Gumbala_Instructions;
 
   currentTime: number = 0;
 
-  currentLyricLines: string[] = [];
+  lyricLinesPerson1: string[] = [];
+  lyricLinesPerson2: string[] = [];
 
   @ViewChild("audioElem") audioVC: { nativeElement: HTMLAudioElement};
 
@@ -39,10 +42,14 @@ export class LyricsComponent implements OnInit {
   onAudioTimeUpdate(elem: HTMLAudioElement) {
     var audioCurrentTimeSec = elem.currentTime;
     for (var lyric of this.currentSong.lyrics) {
-      var startTimeSec: number = parseInt(lyric.startTimeMinute) * 60 + parseInt(lyric.startTimeSecond);
-      var endTimeSec: number = parseInt(lyric.endTimeMinute) * 60 + parseInt(lyric.endTimeSecond);
+      var startTimeSec: number = parseFloat(lyric.startTimeMinute) * 60 + parseInt(lyric.startTimeSecond);
+      var endTimeSec: number = parseFloat(lyric.endTimeMinute) * 60 + parseInt(lyric.endTimeSecond);
       if (audioCurrentTimeSec >= startTimeSec && audioCurrentTimeSec <= endTimeSec) {
-        this.currentLyricLines = lyric.lyric.split("\n");
+        if (lyric.person.trim() === "2") {
+          this.lyricLinesPerson2 = lyric.lyric.split("\n");
+        } else {
+          this.lyricLinesPerson1 = lyric.lyric.split("\n");
+        }
       }
     }
   }
