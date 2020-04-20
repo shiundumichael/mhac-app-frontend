@@ -1,6 +1,20 @@
-export const Zum_Gali_Gali_Instructions = {
-    songTitle: "Ay Ga Zoomba (with Instructions)",
-    lyrics: [
+export type Song = {
+    songTitle: string;
+    lyrics: {
+        "lyric": string,
+        "person": string,
+        isInstructions?: string,
+        "startTimeMinute": string,
+        "startTimeSecond": string,
+        "endTimeMinute": string,
+        "endTimeSecond": string,
+        "danceMove"?: string
+    }[];
+};
+
+export const Zum_Gali_Gali_Instructions: Song = {
+    songTitle: "Zum Gali Gali (with Instructions)",
+    "lyrics": [
         {
             "lyric": "one play with the words in sounds",
             "person": "1",
@@ -13,7 +27,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "zum",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "3",
             "endTimeMinute": "0",
@@ -22,7 +36,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "zum",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "4",
             "endTimeMinute": "0",
@@ -31,7 +45,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "zum",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "5",
             "endTimeMinute": "0",
@@ -40,7 +54,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "zum",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "6",
             "endTimeMinute": "0",
@@ -49,7 +63,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Zum Gali Gali",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "8",
             "endTimeMinute": "0",
@@ -58,7 +72,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Zum Gali Gali",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "10",
             "endTimeMinute": "0",
@@ -67,7 +81,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": " Zum Gali Gali Zum",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "12",
             "endTimeMinute": "0",
@@ -76,7 +90,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Zum  Gali Gali Zum",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "15",
             "endTimeMinute": "0",
@@ -85,7 +99,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Zum",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "18",
             "endTimeMinute": "0",
@@ -94,7 +108,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Zum",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "19",
             "endTimeMinute": "0",
@@ -103,7 +117,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Zum Gali Gali",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "20",
             "endTimeMinute": "0",
@@ -112,7 +126,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Zum Gali Gali",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "21",
             "endTimeMinute": "0",
@@ -121,7 +135,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Dari dum",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "22",
             "endTimeMinute": "0",
@@ -130,7 +144,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Dari dum",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "24",
             "endTimeMinute": "0",
@@ -139,7 +153,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Dari dum",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "26",
             "endTimeMinute": "0",
@@ -148,7 +162,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Dari dum",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "27",
             "endTimeMinute": "0",
@@ -157,7 +171,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Dari Rum Dum Dum",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "28",
             "endTimeMinute": "0",
@@ -166,7 +180,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Dari Rum Dum Dum",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "29",
             "endTimeMinute": "0",
@@ -175,7 +189,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Dade Dum",
             "person": "2",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "31",
             "endTimeMinute": "0",
@@ -184,7 +198,7 @@ export const Zum_Gali_Gali_Instructions = {
         {
             "lyric": "Dade Dum",
             "person": "1",
-            "isInstructions": "TRUE",
+            "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "32",
             "endTimeMinute": "0",
@@ -314,7 +328,8 @@ export const Zum_Gali_Gali_Instructions = {
             "startTimeMinute": "1",
             "startTimeSecond": "43",
             "endTimeMinute": "1",
-            "endTimeSecond": "47"
+            "endTimeSecond": "47",
+            "danceMove": "laughing"
         },
         {
             "lyric": "Like digging or picking fruits",
@@ -323,7 +338,8 @@ export const Zum_Gali_Gali_Instructions = {
             "startTimeMinute": "1",
             "startTimeSecond": "48",
             "endTimeMinute": "1",
-            "endTimeSecond": "51"
+            "endTimeSecond": "51",
+            "danceMove": "digging"
         },
         {
             "lyric": "Four Singing all together",
@@ -332,7 +348,8 @@ export const Zum_Gali_Gali_Instructions = {
             "startTimeMinute": "1",
             "startTimeSecond": "52",
             "endTimeMinute": "1",
-            "endTimeSecond": "55"
+            "endTimeSecond": "55",
+            "danceMove": "all_four"
         },
         {
             "lyric": "Zum Gali Gali Gali Zum Gali Gali       Zum Gali Gali Gali Zum",

@@ -7,7 +7,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "0",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "2"
         },
         {
@@ -16,7 +16,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "1",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "4"
         },
         {
@@ -25,7 +25,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "4",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "6"
         },
         {
@@ -34,7 +34,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "6",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "7"
         },
         {
@@ -43,7 +43,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "7",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "9"
         },
         {
@@ -52,7 +52,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "9",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "12"
         },
         {
@@ -61,7 +61,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "12",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "13"
         },
         {
@@ -70,7 +70,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "13",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "16"
         },
         {
@@ -79,14 +79,14 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "16",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "17"
         },
         {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "17",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "18"
         },
         {
@@ -95,7 +95,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "18",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "19"
         },
         {
@@ -104,7 +104,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "19",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "20"
         },
         {
@@ -113,7 +113,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "20",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "21"
         },
         {
@@ -122,7 +122,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "21",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "22"
         },
         {
@@ -131,7 +131,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
             "startTimeSecond": "22",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "29"
         },
         {
@@ -140,7 +140,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "29",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "33"
         },
         {
@@ -149,7 +149,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "33",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "36"
         },
         {
@@ -158,7 +158,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "36",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "38"
         },
         {
@@ -167,7 +167,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "38",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "40"
         },
         {
@@ -176,7 +176,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "40",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "42"
         },
         {
@@ -185,7 +185,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "42",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "45"
         },
         {
@@ -194,7 +194,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "45",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "48"
         },
         {
@@ -203,7 +203,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "48",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "51"
         },
         {
@@ -212,7 +212,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "51",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "53"
         },
         {
@@ -221,7 +221,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "53",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "56"
         },
         {
@@ -230,7 +230,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "56",
-            "endTimeMinute": "0",
+            "endTimeMinute ": "0",
             "endTimeSecond": "59"
         },
         {
@@ -239,7 +239,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "59",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "3"
         },
         {
@@ -248,7 +248,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "3",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "6"
         },
         {
@@ -257,7 +257,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "6",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "9"
         },
         {
@@ -266,11 +266,8 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "9",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "10"
-        },
-        {
-            "lyric": "Ay Gazooomba Zooomba Eeeeh"
         },
         {
             "lyric": "Ay Gazoomba zoomba Eeeeh",
@@ -278,7 +275,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "10",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "13"
         },
         {
@@ -287,7 +284,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "13",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "16"
         },
         {
@@ -296,7 +293,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "16",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "19"
         },
         {
@@ -305,7 +302,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "19",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "22"
         },
         {
@@ -314,7 +311,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "22",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "27"
         },
         {
@@ -323,7 +320,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "27",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "35"
         },
         {
@@ -332,7 +329,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
             "startTimeSecond": "35",
-            "endTimeMinute": "1",
+            "endTimeMinute ": "1",
             "endTimeSecond": "43"
         },
         {
@@ -341,19 +338,24 @@ export const Ay_Ga_Zoomba_Instructions = {
             "isInstructions": "TRUE",
             "startTimeMinute": "1",
             "startTimeSecond": "43",
-            "endTimeMinute": "2",
-            "endTimeSecond": "8"
+            "endTimeMinute ": "2",
+            "endTimeSecond": "6"
         },
         {
             "lyric": "SING ALL TOGETHER",
-            "isInstructions": "TRUE"
+            "person": "1",
+            "isInstructions": "TRUE",
+            "startTimeMinute": "2",
+            "startTimeSecond": "6",
+            "endTimeMinute ": "2",
+            "endTimeSecond": "8"
         },
         {
             "lyric": " Ay Gazoomba Zoomba Zoomba Ay Gazoomba Zoomba Eeeh ",
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "8",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "19"
         },
         {
@@ -366,7 +368,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "8",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "19"
         },
         {
@@ -374,7 +376,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "19",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "24"
         },
         {
@@ -382,7 +384,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "19",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "24"
         },
         {
@@ -390,7 +392,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "24",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "32"
         },
         {
@@ -398,7 +400,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "24",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "32"
         },
         {
@@ -406,7 +408,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "32",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "37"
         },
         {
@@ -414,7 +416,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "32",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "37"
         },
         {
@@ -422,7 +424,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "37",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "40"
         },
         {
@@ -430,7 +432,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "37",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "40"
         },
         {
@@ -438,7 +440,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "40",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "48"
         },
         {
@@ -446,7 +448,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "40",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "48"
         },
         {
@@ -454,7 +456,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "48",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "52"
         },
         {
@@ -462,7 +464,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "48",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "52"
         },
         {
@@ -470,7 +472,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "52",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "55"
         },
         {
@@ -478,7 +480,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "52",
-            "endTimeMinute": "2",
+            "endTimeMinute ": "2",
             "endTimeSecond": "55"
         },
         {
@@ -486,7 +488,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "2",
             "startTimeSecond": "55",
-            "endTimeMinute": "3",
+            "endTimeMinute ": "3",
             "endTimeSecond": "2"
         },
         {
@@ -494,7 +496,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "2",
             "startTimeSecond": "55",
-            "endTimeMinute": "3",
+            "endTimeMinute ": "3",
             "endTimeSecond": "2"
         },
         {
@@ -502,7 +504,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "3",
             "startTimeSecond": "2",
-            "endTimeMinute": "3",
+            "endTimeMinute ": "3",
             "endTimeSecond": "5"
         },
         {
@@ -510,7 +512,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "3",
             "startTimeSecond": "2",
-            "endTimeMinute": "3",
+            "endTimeMinute ": "3",
             "endTimeSecond": "5"
         },
         {
@@ -518,7 +520,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "3",
             "startTimeSecond": "5",
-            "endTimeMinute": "3",
+            "endTimeMinute ": "3",
             "endTimeSecond": "9"
         },
         {
@@ -526,7 +528,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "3",
             "startTimeSecond": "5",
-            "endTimeMinute": "3",
+            "endTimeMinute ": "3",
             "endTimeSecond": "9"
         },
         {
@@ -534,7 +536,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "1",
             "startTimeMinute": "3",
             "startTimeSecond": "9",
-            "endTimeMinute": "3",
+            "endTimeMinute ": "3",
             "endTimeSecond": "14"
         },
         {
@@ -542,7 +544,7 @@ export const Ay_Ga_Zoomba_Instructions = {
             "person": "2",
             "startTimeMinute": "3",
             "startTimeSecond": "9",
-            "endTimeMinute": "3",
+            "endTimeMinute ": "3",
             "endTimeSecond": "14"
         }
     ]

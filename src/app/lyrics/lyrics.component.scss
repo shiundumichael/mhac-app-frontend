@@ -3,7 +3,12 @@
     color: white;
 }
 
+ul {
+    display: inline-block;
+}
+
 .lyrics-list li {
+    display: inline-block;
     list-style: none;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,4 +23,57 @@
     width: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.blob-container {
+    display: inline-block;
+    width: 140px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.blob-container .arm {
+    width: 10%;
+    position: absolute;
+    right: 3px;
+    bottom: 64px;
+    z-index: 2;
+    transform: rotate(50deg);
+    transform-origin: bottom left;
+    animation: waving-arm 3s infinite linear;
+    -webkit-transform: rotate(50deg);
+    -webkit-transform-origin: bottom left;
+    -webkit-animation: waving-arm 3s infinite linear;
+}
+
+.blob-container2 {
+    filter: hue-rotate(90deg);
+}
+
+@keyframes waving-arm {
+    0% {
+        -webkit-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
+    10% {
+        -webkit-transform: rotate(140deg);
+        transform: rotate(140deg);
+    }
+    20% {
+        -webkit-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
+    59% {
+        -webkit-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
+    70% {
+        -webkit-transform: rotate(140deg);
+        transform: rotate(140deg);
+    }
+    80% {
+        -webkit-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
 }
