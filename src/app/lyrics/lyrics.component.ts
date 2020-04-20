@@ -19,6 +19,10 @@ export class LyricsComponent implements OnInit {
   lyricLinesPerson1: string[] = [];
   lyricLinesPerson2: string[] = [];
 
+  lyricColors: string[] = ["white", "lightblue", "lightpink", "lightyellow"];
+  lyricPerson1Color: string = "white";
+  lyricPerson2Color: string = "white";
+
   @ViewChild("audioElem") audioVC: { nativeElement: HTMLAudioElement};
 
   paused: boolean = false;
@@ -40,19 +44,33 @@ export class LyricsComponent implements OnInit {
     }
   }
 
+  pickRandom(list: string[]): string {
+    const randomIndex = Math.ceil(Math.random() * list.length - 0.00000001) - 1;
+    console.log("Random!", randomIndex, list[randomIndex]);
+    return list[randomIndex];
+  }
+
   onAudioTimeUpdate(elem: HTMLAudioElement) {
     var audioCurrentTimeSec = elem.currentTime;
     for (var lyric of this.currentSong.lyrics) {
       var startTimeSec: number = parseInt(lyric.startTimeMinute) * 60 + parseInt(lyric.startTimeSecond);
       var endTimeSec: number = parseInt(lyric.endTimeMinute) * 60 + parseInt(lyric.endTimeSecond);
       if (audioCurrentTimeSec >= startTimeSec && audioCurrentTimeSec <= endTimeSec) {
+        var newLines = lyric.lyric.split("\n");
         if (lyric.isInstructions.trim().toLowerCase() === "true") {
-          this.lyricLinesInstructions = lyric.lyric.split("\n");
+          this.lyricLinesInstructions = newLines;
         } else
         if (lyric.person === "2") {
-          this.lyricLinesPerson2 = lyric.lyric.split("\n");
+          if (newLines[0] && newLines[0] !== this.lyricLinesPerson2[0]) {
+            this.lyricPerson2Color = this.pickRandom(["lightpink", "pink", "darkred", "black", "white"]);
+          }
+          this.lyricLinesPerson2 = newLines;
         } else {
-          this.lyricLinesPerson1 = lyric.lyric.split("\n");
+          var newLines = lyric.lyric.split("\n");
+          if (newLines[0] && newLines[0] !== this.lyricLinesPerson1[0]) {
+            this.lyricPerson1Color = this.pickRandom(["skyblue", "cyan", "blue", "lightblue", "teal", "black", "white"]);
+          }
+          this.lyricLinesPerson1 = newLines;
         }
       }
     }

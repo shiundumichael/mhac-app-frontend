@@ -7,29 +7,28 @@
             <ion-icon name="{{paused ? 'play' : 'pause'}}"></ion-icon>
         </ion-button>
     </div>
-    <ul class="lyrics-list">
-        <li>Instructions:</li>
-        <li *ngFor="let line of lyricLinesInstructions">
+    <div class="lyrics-list">
+        <div class="line">Instructions:</div>
+        <div class="line" *ngFor="let line of lyricLinesInstructions">
             {{line}}
-        </li>
-    </ul>
+        </div>
+    </div>
     <div class="lyric-section">
         <div class="blob-container">
             <img src="assets/images/body1.svg" class="body">
             <img src="assets/images/arm1.svg" class="arm">
         </div>
-        <div class="lyrics-list">
-            <div class="line">Always here</div>
+        <div class="lyrics-list" [style]="'color:' + lyricPerson1Color">
             <div class="line" *ngFor="let line of lyricLinesPerson1">{{line}}</div>
         </div>
     </div>
-    <div class="blob-container blob-container2">
-        <img src="assets/images/body1.svg" class="body">
-        <img src="assets/images/arm1.svg" class="arm">
+    <div class="lyric-section">
+        <div class="blob-container blob-container2">
+            <img src="assets/images/body1.svg" class="body">
+            <img src="assets/images/arm1.svg" class="arm">
+        </div>
+        <div class="lyrics-list" [style]="'color:' + lyricPerson2Color">
+            <div class="line" *ngFor="let line of lyricLinesPerson2">{{line}}</div>
+        </div>
     </div>
-    <ul class="lyrics-list">
-        <li *ngFor="let line of lyricLinesPerson2">
-            {{line}}
-        </li>
-    </ul>
 </ion-content>
