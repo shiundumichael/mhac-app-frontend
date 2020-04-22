@@ -6,6 +6,7 @@ import { ScanQrComponent } from './scan-qr/scan-qr.component';
 import { LyricsComponent } from './lyrics/lyrics.component';
 import { SongListComponent } from './song-list/song-list.component';
 import { ActivitiesComponent } from './activities/activities.component';
+import { CakeComponent } from './cake/cake.component';
 
 
 const routes: Routes = [
@@ -42,6 +43,10 @@ const routes: Routes = [
   {
     path: 'song/:id',
     component: LyricsComponent
+  },
+  {
+    path: 'cake',
+    component: CakeComponent
   }
 ];
 

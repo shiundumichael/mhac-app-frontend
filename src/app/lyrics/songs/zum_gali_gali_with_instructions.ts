@@ -16,7 +16,7 @@ export const Zum_Gali_Gali_Instructions: Song = {
     songTitle: "Zum Gali Gali (with Instructions)",
     "lyrics": [
         {
-            "lyric": "one play with the words in sounds",
+            "lyric": "One play with the words in sounds",
             "person": "1",
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
@@ -25,7 +25,7 @@ export const Zum_Gali_Gali_Instructions: Song = {
             "endTimeSecond": "3"
         },
         {
-            "lyric": "zum",
+            "lyric": "Zum",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
