@@ -1,5 +1,8 @@
-export const Baba_La_Gumbala_Instructions = {
+import { Song } from './song';
+
+export const Baba_La_Gumbala_Instructions: Song = {
     songTitle: "Baba La Gumbala (with Instructions)",
+    audioURL: "assets/audio/Baba_La_Gumbala_Instructions.mp3",
     lyrics: [
         {
             "lyric": "One, play with the words and sounds",

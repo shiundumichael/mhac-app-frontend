@@ -1,9 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { Ay_Gazoomba, Oh_Ram_Sam_Sam, Zum_Gali_Gali, Baba_La_Gumbala, Bella_Mama } from './songs';
-import { Ay_Ga_Zoomba_Instructions } from './songs/ay_ga_zoomba_with_instructions';
-import { Song, Zum_Gali_Gali_Instructions } from './songs/zum_gali_gali_with_instructions';
 import { ActivatedRoute, Router, NavigationStart } from '@angular/router';
-import { Baba_La_Gumbala_Instructions } from './songs/baba_la_gumbala_instructions';
+import { Song } from './songs/song';
+import { songList } from './songs/song-list';
 
 
 @Component({
@@ -13,10 +11,10 @@ import { Baba_La_Gumbala_Instructions } from './songs/baba_la_gumbala_instructio
 })
 export class LyricsComponent implements OnInit {
 
-  songAudioURL: string = "assets/audio/Zum_Gali_Gali_Instructions.mp3";
-  currentSong: Song = Zum_Gali_Gali_Instructions;
+  currentSong: Song = songList[0];
 
-  currentTime: number = 0;
+  currentMinutes: number = 0;
+  currentSeconds: number = 0;
 
   hasInstructions: boolean = false;
   hasTwoPeople: boolean = false;
@@ -34,13 +32,9 @@ export class LyricsComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, private router: Router) {
     this.route.params.subscribe(params => {
-      if (params["id"] === "2") {
-        this.songAudioURL = "assets/audio/Ay_Ga_Zoomba.mp3";
-        this.currentSong = Ay_Gazoomba;
-      } else
-      if (params["id"] === "3") {
-        this.songAudioURL = "assets/audio/Baba_La_Gumbala_Instructions.mp3";
-        this.currentSong = Baba_La_Gumbala_Instructions;
+      if (params["id"]) {
+        var id = parseInt(params["id"]);
+        this.currentSong = songList[id];
       }
     });
     this.router.events.subscribe((event) => {
@@ -53,6 +47,7 @@ export class LyricsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    
   }
 
   toggleAudio() {
@@ -72,10 +67,13 @@ export class LyricsComponent implements OnInit {
   }
 
   onAudioTimeUpdate(elem: HTMLAudioElement) {
+    this.audioVC.nativeElement.playbackRate = 0.7;
     var audioCurrentTimeSec = elem.currentTime;
+    this.currentMinutes = Math.floor(audioCurrentTimeSec / 60);
+    this.currentSeconds = audioCurrentTimeSec - this.currentMinutes * 60;
     for (var lyric of this.currentSong.lyrics) {
-      var startTimeSec: number = parseInt(lyric.startTimeMinute) * 60 + parseInt(lyric.startTimeSecond);
-      var endTimeSec: number = parseInt(lyric.endTimeMinute) * 60 + parseInt(lyric.endTimeSecond);
+      var startTimeSec: number = parseFloat(lyric.startTimeMinute) * 60 + parseFloat(lyric.startTimeSecond);
+      var endTimeSec: number = parseFloat(lyric.endTimeMinute) * 60 + parseFloat(lyric.endTimeSecond);
       if (audioCurrentTimeSec >= startTimeSec && audioCurrentTimeSec <= endTimeSec) {
         var newLines = lyric.lyric.split("\n");
         if (lyric.isInstructions && lyric.isInstructions.trim().toLowerCase() === "true") {
