@@ -1,12 +1,13 @@
 <ion-content padding class="lyrics-content">
     <h1 class="title">🎵 Now Playing: {{currentSong.songTitle}}</h1>
-    <audio #audioElem [src]="songAudioURL" autoplay="true"
+    <audio controls #audioElem [src]="currentSong.audioURL" autoplay="true"
         (timeupdate)="onAudioTimeUpdate(audioElem)"></audio>
-    <div class="button-container">
+    <!--<div class="button-container">
         <ion-button shape="round" (click)="toggleAudio()">
             <ion-icon name="{{paused ? 'play' : 'pause'}}"></ion-icon>
         </ion-button>
-    </div>
+    </div>-->
+    <p>Time: {{currentMinutes}}:{{currentSeconds}}</p>
     <div *ngIf="hasInstructions" class="lyrics-list">
         <div class="line">Instructions:</div>
         <div class="line" *ngFor="let line of lyricLinesInstructions">
