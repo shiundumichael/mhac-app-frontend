@@ -68,7 +68,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "14"
         },
         {
-            "lyric": "Gumbala havise",
+            "lyric": "Baba la Gumbala",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
@@ -77,7 +77,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "16"
         },
         {
-            "lyric": "Gumbala havise",
+            "lyric": "Baba la Gumbala",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
@@ -85,8 +85,49 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeMinute": "0",
             "endTimeSecond": "18"
         },
+
+
         {
-            "lyric": "Hanana nana",
+            "lyric": "Gumbala Havise",
+            "person": "2",
+            "isInstructions": "FALSE",
+            "startTimeMinute": "0",
+            "startTimeSecond": "19",
+            "endTimeMinute": "0",
+            "endTimeSecond": "20"
+        },
+       
+        {
+            "lyric": "Gumbala Havise",
+            "person": "1",
+            "isInstructions": "FALSE",
+            "startTimeMinute": "0",
+            "startTimeSecond": "20",
+            "endTimeMinute": "0",
+            "endTimeSecond": "21"
+        },
+       
+        {
+            "lyric": "Gumbala Havise",
+            "person": "2",
+            "isInstructions": "FALSE",
+            "startTimeMinute": "0",
+            "startTimeSecond": "22",
+            "endTimeMinute": "0",
+            "endTimeSecond": "23"
+        },
+        {
+            "lyric": "Gumbala Havise",
+            "person": "1",
+            "isInstructions": "FALSE",
+            "startTimeMinute": "0",
+            "startTimeSecond": "24",
+            "endTimeMinute": "0",
+            "endTimeSecond": "25"
+        },
+
+ {
+            "lyric":"Hanana nana",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
@@ -94,6 +135,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeMinute": "0",
             "endTimeSecond": "27"
         },
+    
         {
             "lyric": "Hanana nana",
             "person": "1",
@@ -208,8 +250,8 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "59",
-            "endTimeMinute": "0",
-            "endTimeSecond": " 1       02  "
+            "endTimeMinute": "1",
+            "endTimeSecond": "2"
         },
         {
             "lyric": "Hanana nana havise",
@@ -404,10 +446,10 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "lyric": "Baba la gumbala gumbala havise",
             "person": "2",
             "isInstructions": "FALSE",
-            "startTimeMinute": "2",
-            "startTimeSecond": "0",
+            "startTimeMinute": "1",
+            "startTimeSecond": "59",
             "endTimeMinute": "2",
-            "endTimeSecond": "3"
+            "endTimeSecond": "2"
         },
         {
             "lyric": "Baba la gumbala gumbala havise",
