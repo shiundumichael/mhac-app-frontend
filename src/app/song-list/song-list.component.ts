@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { songList } from '../lyrics/songs/song-list';
 
 @Component({
   selector: 'app-song-list',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./song-list.component.scss']
 })
 export class SongListComponent implements OnInit {
+
+  songList = songList;
 
   constructor() { }
 
