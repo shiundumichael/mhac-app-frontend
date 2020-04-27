@@ -1,20 +1,9 @@
-export type Song = {
-    songTitle: string;
-    lyrics: {
-        "lyric": string,
-        "person"?: string,
-        isInstructions?: string,
-        "startTimeMinute": string,
-        "startTimeSecond": string,
-        "endTimeMinute": string,
-        "endTimeSecond": string,
-        "danceMove"?: string
-    }[];
-};
+import { Song } from './song';
 
 export const Zum_Gali_Gali_Instructions: Song = {
     songTitle: "Zum Gali Gali (with Instructions)",
-    "lyrics": [
+    audioURL: "assets/audio/Zum_Gali_Gali_Instructions.mp3",
+    lyrics: [
         {
             "lyric": "One play with the words in sounds",
             "person": "1",
@@ -29,9 +18,9 @@ export const Zum_Gali_Gali_Instructions: Song = {
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "3",
+            "startTimeSecond": "5",
             "endTimeMinute": "0",
-            "endTimeSecond": "4"
+            "endTimeSecond": "6"
         },
         {
             "lyric": "zum",
@@ -65,25 +54,25 @@ export const Zum_Gali_Gali_Instructions: Song = {
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "8",
+            "startTimeSecond": "9",
             "endTimeMinute": "0",
-            "endTimeSecond": "10"
+            "endTimeSecond": "11"
         },
         {
             "lyric": "Zum Gali Gali",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "10",
+            "startTimeSecond": "11",
             "endTimeMinute": "0",
             "endTimeSecond": "12"
         },
         {
-            "lyric": " Zum Gali Gali Zum",
+            "lyric": " Zum Gali Gali Gali Zum",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "12",
+            "startTimeSecond": "13.6",
             "endTimeMinute": "0",
             "endTimeSecond": "15"
         },
@@ -92,9 +81,9 @@ export const Zum_Gali_Gali_Instructions: Song = {
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "15",
+            "startTimeSecond": "16",
             "endTimeMinute": "0",
-            "endTimeSecond": "18"
+            "endTimeSecond": "19"
         },
         {
             "lyric": "Zum",
