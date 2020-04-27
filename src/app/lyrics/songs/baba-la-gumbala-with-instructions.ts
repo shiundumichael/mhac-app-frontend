@@ -150,18 +150,18 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "30",
+            "startTimeSecond": "29.1",
             "endTimeMinute": "0",
-            "endTimeSecond": "30"
+            "endTimeSecond": "29.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "31",
+            "startTimeSecond": "30.2",
             "endTimeMinute": "0",
-            "endTimeSecond": "31"
+            "endTimeSecond": "30.59"
         },
         {
             "lyric": "Hanana nana",
@@ -186,18 +186,18 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "35",
+            "startTimeSecond": "35.1",
             "endTimeMinute": "0",
-            "endTimeSecond": "35"
+            "endTimeSecond": "35.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "36",
+            "startTimeSecond": "36.1",
             "endTimeMinute": "0",
-            "endTimeSecond": "36"
+            "endTimeSecond": "36.59"
         },
         {
             "lyric": "You sing they sing",
@@ -285,54 +285,54 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "13",
+            "startTimeSecond": "13.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "13"
+            "endTimeSecond": "13.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "14",
+            "startTimeSecond": "14.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "14"
+            "endTimeSecond": "14.59"
         },
         {
             "lyric": "Havise",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "15",
+            "startTimeSecond": "15.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "15"
+            "endTimeSecond": "15.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "16",
+            "startTimeSecond": "16.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "16"
+            "endTimeSecond": "16.59"
         },
         {
             "lyric": "Havise",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "17",
+            "startTimeSecond": "17.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "17"
+            "endTimeSecond": "17.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "18",
+            "startTimeSecond": "18.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "18"
+            "endTimeSecond": "18.59"
         },
         {
             "lyric": "Baba la gumbala gumbala havise",
@@ -375,45 +375,45 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "33",
+            "startTimeSecond": "33.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "33"
+            "endTimeSecond": "33.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "34",
+            "startTimeSecond": "34.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "34"
+            "endTimeSecond": "34.59"
         },
         {
             "lyric": "Havise",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "35",
+            "startTimeSecond": "35.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "35"
+            "endTimeSecond": "35.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "36",
+            "startTimeSecond": "36.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "36"
+            "endTimeSecond": "36.59"
         },
         {
             "lyric": "Havise",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "37",
+            "startTimeSecond": "37.1",
             "endTimeMinute": "1",
-            "endTimeSecond": "37"
+            "endTimeSecond": "37.59"
         },
         {
             "lyric": "Havise",
@@ -519,63 +519,63 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "2",
-            "startTimeSecond": "28",
+            "startTimeSecond": "28.1",
             "endTimeMinute": "2",
-            "endTimeSecond": "28"
+            "endTimeSecond": "28.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "2",
-            "startTimeSecond": "29",
+            "startTimeSecond": "29.1",
             "endTimeMinute": "2",
-            "endTimeSecond": "29"
+            "endTimeSecond": "29.59"
         },
         {
             "lyric": "Havise",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "2",
-            "startTimeSecond": "30",
+            "startTimeSecond": "30.1",
             "endTimeMinute": "2",
-            "endTimeSecond": "30"
+            "endTimeSecond": "30.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "2",
-            "startTimeSecond": "31",
+            "startTimeSecond": "31.1",
             "endTimeMinute": "2",
-            "endTimeSecond": "31"
+            "endTimeSecond": "31.59"
         },
         {
             "lyric": "Havise",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "2",
-            "startTimeSecond": "32",
+            "startTimeSecond": "32.1",
             "endTimeMinute": "2",
-            "endTimeSecond": "32"
+            "endTimeSecond": "32.59"
         },
         {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "2",
-            "startTimeSecond": "33",
+            "startTimeSecond": "33.1",
             "endTimeMinute": "2",
-            "endTimeSecond": "33"
+            "endTimeSecond": "33.59"
         },
         {
             "lyric": "Havise",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "2",
-            "startTimeSecond": "34",
+            "startTimeSecond": "34.1",
             "endTimeMinute": "2",
-            "endTimeSecond": "34"
+            "endTimeSecond": "34.59"
         },
         {
             "lyric": "Havise",
