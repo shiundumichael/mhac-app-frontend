@@ -184,5 +184,8 @@
       }
     }
   },
-  "defaultProject": "mhac-app-frontend"
+  "defaultProject": "mhac-app-frontend",
+  "cli": {
+    "analytics": false
+  }
 }
