@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bibi-sara-story.component.scss']
 })
 export class BibiSaraStoryComponent implements OnInit {
+  
+  slideOpts = {
+    initialSlide: 0,
+    speed: 400
+  };
 
   constructor() { }
 
