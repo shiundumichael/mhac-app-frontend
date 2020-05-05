@@ -15,6 +15,7 @@ import { CovidTipsComponent } from './covid-tips/covid-tips.component';
 import { SongListComponent } from './song-list/song-list.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { CakeComponent } from './cake/cake.component';
+import { MedicationRoutineStoryComponent } from './stories/medication-routine-story/medication-routine-story.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CakeComponent } from './cake/cake.component';
     CovidTipsComponent,
     SongListComponent,
     ActivitiesComponent,
-    CakeComponent
+    CakeComponent,
+    MedicationRoutineStoryComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { LyricsComponent } from './lyrics/lyrics.component';
 import { SongListComponent } from './song-list/song-list.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { CakeComponent } from './cake/cake.component';
+import { MedicationRoutineStoryComponent } from './stories/medication-routine-story/medication-routine-story.component';
 
 
 const routes: Routes = [
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path: 'cake',
     component: CakeComponent
+  },
+  {
+    path: 'story/medication-routine',
+    component: MedicationRoutineStoryComponent
   }
 ];
 
