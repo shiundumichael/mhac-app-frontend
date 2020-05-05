@@ -8,6 +8,7 @@ import { SongListComponent } from './song-list/song-list.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { CakeComponent } from './cake/cake.component';
 import { MedicationRoutineStoryComponent } from './stories/medication-routine-story/medication-routine-story.component';
+import { BibiSaraStoryComponent } from './stories/bibi-sara-story/bibi-sara-story.component';
 
 
 const routes: Routes = [
@@ -52,6 +53,11 @@ const routes: Routes = [
   {
     path: 'story/medication-routine',
     component: MedicationRoutineStoryComponent
+  },
+
+  {
+    path: 'story/bibi-sara-story',
+    component : BibiSaraStoryComponent
   }
 ];
 
