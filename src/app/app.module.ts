@@ -20,6 +20,7 @@ import { BibiSaraStoryComponent } from './stories/bibi-sara-story/bibi-sara-stor
 import { StoryListComponent } from './story-list/story-list.component';
 import { WhatsappNegativeStoryComponent } from './stories/whatsapp-negative-story/whatsapp-negative-story.component';
 import { PuttingOutFireComponent } from './stories/putting-out-fire/putting-out-fire.component';
+import { BreadAndBullyStoryComponent } from './stories/bread-and-bully-story/bread-and-bully-story.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { PuttingOutFireComponent } from './stories/putting-out-fire/putting-out-
     BibiSaraStoryComponent,
     StoryListComponent,
     WhatsappNegativeStoryComponent,
-    PuttingOutFireComponent
+    PuttingOutFireComponent,
+    BreadAndBullyStoryComponent
   ],
   imports: [
     BrowserModule,

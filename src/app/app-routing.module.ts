@@ -12,6 +12,7 @@ import { BibiSaraStoryComponent } from './stories/bibi-sara-story/bibi-sara-stor
 import { StoryListComponent } from './story-list/story-list.component';
 import { WhatsappNegativeStoryComponent } from './stories/whatsapp-negative-story/whatsapp-negative-story.component';
 import { PuttingOutFireComponent } from './stories/putting-out-fire/putting-out-fire.component';
+import { BreadAndBullyStoryComponent } from './stories/bread-and-bully-story/bread-and-bully-story.component';
 
 
 const routes: Routes = [
@@ -73,6 +74,11 @@ const routes: Routes = [
     path: 'story/putting-out-fire',
     component : PuttingOutFireComponent
   },
+
+  {
+    path: 'story/bread-and-bully-story',
+    component : BreadAndBullyStoryComponent
+  }, 
 
   {
     path: 'story-list',
