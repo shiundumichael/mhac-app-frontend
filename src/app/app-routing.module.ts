@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { HandWashingComponent } from './hand-washing/hand-washing.component';
@@ -10,6 +10,7 @@ import { CakeComponent } from './cake/cake.component';
 import { MedicationRoutineStoryComponent } from './stories/medication-routine-story/medication-routine-story.component';
 import { BibiSaraStoryComponent } from './stories/bibi-sara-story/bibi-sara-story.component';
 import { StoryListComponent } from './story-list/story-list.component';
+import { WhatsappNegativeStoryComponent } from './stories/whatsapp-negative-story/whatsapp-negative-story.component';
 
 
 const routes: Routes = [
@@ -60,6 +61,12 @@ const routes: Routes = [
     path: 'story/bibi-sara-story',
     component : BibiSaraStoryComponent
   }, 
+
+  {
+    path: 'story/whatsapp-negative-story',
+    component : WhatsappNegativeStoryComponent
+
+  },
 
   {
     path: 'story-list',

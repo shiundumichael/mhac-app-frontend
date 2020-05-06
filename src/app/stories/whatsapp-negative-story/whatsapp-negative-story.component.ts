@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhatsappNegativeStoryComponent implements OnInit {
 
+  slideOpts = {
+    initialSlide: 0,
+    speed: 400
+  };
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
