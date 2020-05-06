@@ -127,7 +127,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
         },
 
  {
-            "lyric":"Hanana nana",
+            "lyric":"Hanana na",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
@@ -137,7 +137,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
         },
     
         {
-            "lyric": "Hanana nana",
+            "lyric": "Hanana na",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
@@ -164,22 +164,22 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "30.59"
         },
         {
-            "lyric": "Hanana nana",
+            "lyric": "Hanana na",
             "person": "2",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
             "startTimeSecond": "30",
             "endTimeMinute": "0",
-            "endTimeSecond": "32"
+            "endTimeSecond": "33"
         },
         {
-            "lyric": "Hanana nana",
+            "lyric": "Hanana na",
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "0",
-            "startTimeSecond": "32",
+            "startTimeSecond": "33",
             "endTimeMinute": "0",
-            "endTimeSecond": "34"
+            "endTimeSecond": "35"
         },
         {
             "lyric": "Havise",
@@ -415,7 +415,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeMinute": "1",
             "endTimeSecond": "37.59"
         },
-        {
+  6      {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
@@ -425,7 +425,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "40"
         },
         {
-            "lyric": "Add fun actions like making a big pot of stone soup,chopping incredient,stirring pot and testing the soup",
+            "lyric": "Add fun actions like making a big pot of stone soup,chopping the ingredients,stirring pot and testing the soup",
             "person": "1",
             "isInstructions": "TRUE",
             "startTimeMinute": "1",
@@ -436,6 +436,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
         {
             "lyric": "Sing all together",
             "person": "1",
+            
             "isInstructions": "TRUE",
             "startTimeMinute": "1",
             "startTimeSecond": "57",
