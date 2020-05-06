@@ -11,6 +11,7 @@ import { MedicationRoutineStoryComponent } from './stories/medication-routine-st
 import { BibiSaraStoryComponent } from './stories/bibi-sara-story/bibi-sara-story.component';
 import { StoryListComponent } from './story-list/story-list.component';
 import { WhatsappNegativeStoryComponent } from './stories/whatsapp-negative-story/whatsapp-negative-story.component';
+import { PuttingOutFireComponent } from './stories/putting-out-fire/putting-out-fire.component';
 
 
 const routes: Routes = [
@@ -66,6 +67,11 @@ const routes: Routes = [
     path: 'story/whatsapp-negative-story',
     component : WhatsappNegativeStoryComponent
 
+  },
+
+  {
+    path: 'story/putting-out-fire',
+    component : PuttingOutFireComponent
   },
 
   {
