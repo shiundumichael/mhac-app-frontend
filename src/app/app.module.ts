@@ -17,6 +17,7 @@ import { ActivitiesComponent } from './activities/activities.component';
 import { CakeComponent } from './cake/cake.component';
 import { MedicationRoutineStoryComponent } from './stories/medication-routine-story/medication-routine-story.component';
 import { BibiSaraStoryComponent } from './stories/bibi-sara-story/bibi-sara-story.component';
+import { StoryListComponent } from './story-list/story-list.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BibiSaraStoryComponent } from './stories/bibi-sara-story/bibi-sara-stor
     ActivitiesComponent,
     CakeComponent,
     MedicationRoutineStoryComponent,
-    BibiSaraStoryComponent
+    BibiSaraStoryComponent,
+    StoryListComponent
   ],
   imports: [
     BrowserModule,
