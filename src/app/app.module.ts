@@ -18,6 +18,7 @@ import { CakeComponent } from './cake/cake.component';
 import { MedicationRoutineStoryComponent } from './stories/medication-routine-story/medication-routine-story.component';
 import { BibiSaraStoryComponent } from './stories/bibi-sara-story/bibi-sara-story.component';
 import { StoryListComponent } from './story-list/story-list.component';
+import { WhatsappNegativeStoryComponent } from './stories/whatsapp-negative-story/whatsapp-negative-story.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { StoryListComponent } from './story-list/story-list.component';
     CakeComponent,
     MedicationRoutineStoryComponent,
     BibiSaraStoryComponent,
-    StoryListComponent
+    StoryListComponent,
+    WhatsappNegativeStoryComponent
   ],
   imports: [
     BrowserModule,
