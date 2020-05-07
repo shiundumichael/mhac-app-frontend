@@ -348,7 +348,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "person": "1",
             "isInstructions": "FALSE",
             "startTimeMinute": "1",
-            "startTimeSecond": "23",
+            "startTimeSecond": "22",
             "endTimeMinute": "1",
             "endTimeSecond": "26"
         },
@@ -415,7 +415,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeMinute": "1",
             "endTimeSecond": "37.59"
         },
-  6      {
+        {
             "lyric": "Havise",
             "person": "1",
             "isInstructions": "FALSE",
