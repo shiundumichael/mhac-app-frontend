@@ -434,7 +434,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "56"
         },
         {
-            "lyric": "Four,Sing all together",
+            "lyric": "Four: Sing all together",
             "person": "1",
             "isInstructions": "TRUE",
             "startTimeMinute": "1",
