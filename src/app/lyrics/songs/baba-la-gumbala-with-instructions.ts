@@ -200,7 +200,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "36.59"
         },
         {
-            "lyric": "You sing they sing",
+            "lyric": "Two,You sing they sing",
             "person": "1",
             "isInstructions": "TRUE",
             "startTimeMinute": "0",
@@ -425,7 +425,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "40"
         },
         {
-            "lyric": "Add fun actions like making a big pot of stone soup,chopping the ingredient,stirring pot and tasting the soup",
+            "lyric": "Three,Add fun actions like making a big pot of stone soup,chopping the ingredient,stirring pot and tasting the soup",
             "person": "1",
             "isInstructions": "TRUE",
             "startTimeMinute": "1",
@@ -434,7 +434,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "56"
         },
         {
-            "lyric": "Sing all together",
+            "lyric": "Four,Sing all together",
             "person": "1",
             "isInstructions": "TRUE",
             "startTimeMinute": "1",
