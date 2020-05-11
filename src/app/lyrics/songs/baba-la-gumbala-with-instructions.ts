@@ -425,7 +425,7 @@ export const Baba_La_Gumbala_Instructions: Song = {
             "endTimeSecond": "40"
         },
         {
-            "lyric": "Three,Add fun actions like making a big pot of stone soup,chopping the ingredient,stirring pot and tasting the soup",
+            "lyric": "Three: Add fun actions like making a big pot of stone soup,chopping the ingredient,stirring pot and tasting the soup",
             "person": "1",
             "isInstructions": "TRUE",
             "startTimeMinute": "1",
